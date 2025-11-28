@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <form action="#" method="get">
+        <div class="container">
+            <div>
+                <img src="img-font/logoTransparent.png" alt="" class="img-logo">
+                <h1 class="title-m">Faça seu login</h1>
+            </div>
+            <div class="input-group">
+                <div class="nome">
+                    <p id="erroNome"></p>
+                    <label for="name-or-email" id="labels"><input type="text" name="" id="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="email">
+                    <p id="erroEmail"></p>
+                    <label for="name-or-email" id="labels">
+                    <input type="email" name="" id="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="senha">
+                    <p id="erroSenha"></p>
+                    <label for="senha" id="labels"></label> <br>
+                    <input type="password" name="" id="senha" placeholder="Digite sua senha " required>
+                </div>
+            </div>
+            <p class="text">Não tem uma conta? 
+                <a href="cadastro.html" class="cor ">Cadastre-se.</a><br>
+                <a href="index.html" class="text">Voltar</a>
+            </p>
+            <div class="button-submit">
+                <button type="submit" id="btnEnviar" class="sub"> Continuar </button>
+            </div>
+        </div>
+    </form>
+
+    <script src="validar.js"></script>
+</body>
+
+</html>
